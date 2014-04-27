@@ -8,8 +8,8 @@ makeCacheMatrix <- function(matrixInput = matrix()) {
 ## and then prepse set function to set the matrix input
     matrixInverse <- NULL
     set <- function(mInput) {
-    matrixInput <<- mInput
-    matrixInverse <<- NULL
+        matrixInput <<- mInput
+        matrixInverse <<- NULL
     }
 ##prepare get function to return the input matrix
     get <- function() matrixInput
